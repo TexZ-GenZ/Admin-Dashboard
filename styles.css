@@ -157,6 +157,9 @@
     .search div img{
         width: 2rem;
     }
+    .search div img:hover{
+        scale: 1.1;
+    }
     input{
         flex: 1;
         background-color: #0d1117;
@@ -181,17 +184,26 @@
     .nsymbol{
         width: 1.5rem;
     }
+    .nsymbol:hover{
+        scale: 1.05;
+    }
     img.pfp{
         width: 50px;
         border-radius: 50%;
         border: 1px  solid #30363d;
         
     }
+    .pfp:hover{
+        scale: 1.05;
+    }
     a{
         text-decoration: none;
         font-weight: 600;
         font-size: 1rem;
         color: white;
+    }
+    a:hover{
+        scale: 1.05;
     }
 
     .about{
@@ -236,6 +248,10 @@
         font-weight: 600;
     }
 
+    .btn:hover{
+        scale: 1.05;
+    }
+
   /* CSS for content */
 
   .content{
@@ -270,6 +286,11 @@
     background-color: #0085f6;
     /* box-shadow: 0 0 10px rgb(0, 0, 0); */
     border: 1px solid #30363d;
+  }
+
+  .card:hover{
+    scale:1.02;
+    
   }
 
   
@@ -323,4 +344,7 @@
     /* box-shadow: 0 0 10px rgb(0, 0, 0); */
   }
   
+  .scard:hover{
+    scale: 1.02;
+  }
 
