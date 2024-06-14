@@ -109,6 +109,7 @@
     border: 1px solid #30363d;
   }
 
+  
   .cardData{
     height: 100%;
     margin-left: 10px;
@@ -156,5 +157,8 @@
     border: 1px solid #30363d;
     background-color: #0d1117;
     /* box-shadow: 0 0 10px rgb(0, 0, 0); */
+  }
+  .scard:hover{
+    scale: 1.02;
   }
 
